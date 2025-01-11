@@ -19,7 +19,7 @@ header {
 }
 
 nav {
-    width: 75%;
+    width: 78%;
     padding-top: 70px;
     margin-left: 100px;
     display: flex;
@@ -38,11 +38,11 @@ nav {
     height: fit-content;
     background-position: center center;
     background-size: cover;
-    padding: 8px 4px;
+    padding: 8px 5px;
 }
 
 .menu {
-    width: 60%;
+    width: 54%;
     display: flex;
     justify-content: space-between;
     align-items: center;
