@@ -11,32 +11,70 @@
 </head>
 
 <body>
-    <header>
+    <!-- Шапка сайта -->
+    <header id="header">
+        <!-- Навигация -->
         <nav>
             <div class="logo">
                 <div style="font-size: 30px; color: white; font-family: 'Montserrat', serif">VF</div>
                 <p style="font-size: 25px; font-family: 'Montserrat', serif; font-weight: 900;">Vintage Food</p>
             </div>
             <div class="header__menu">
-                <a href="#" class="nav_p_active">Главная</a>
-                <a href="#">Акции</a>
-                <a href="#">О нас</a>
+                <a href="#header" class="nav_p_active">Главная</a>
+                <a href="#menu">Акции</a>
+                <a href="#footer">О нас</a>
                 <button>
                     <img src="./images/shopping_cart.svg">
                 </button>
             </div>
         </nav>
-
+        <!-- Контент шапки -->
         <div class="header__content">
             <div>
-                <p style="font-size: 32px; font-weight: 900; font-family: 'Montserrat', serif">Быстрая доставка для Вас</p>
-                <p style="font-weight: 500; font-family: 'Montserrat', serif">Сделай первый заказ и получи скидку 50%</p>
+                <p style="font-size: 32px; font-weight: 900; font-family: 'Montserrat', serif">Быстрая доставка для Вас
+                </p>
+                <p style="font-weight: 500; font-family: 'Montserrat', serif">Сделай первый заказ и получи скидку 50%
+                </p>
                 <button type="button">Заказать</button>
             </div>
             <img src="./images/burger_photo.svg">
         </div>
     </header>
-    <menu></menu>
+    <menu id="menu">
+        <p style="font-size: 40px; font-weight: 600; font-family: 'Montserrat', serif; text-align: center;">Меню</p>
+        <div>
+            <button class="card">
+                <img src="./images/menu_burger.svg">
+                <p>
+                    Бургеры</p>
+            </button>
+            <button class="card">
+                <img src="./images/menu_chiken.svg">
+                <p>
+                    Блюда из курицы</p>
+            </button>
+            <button class="card">
+                <img src="./images/menu_hot.svg">
+                <p>
+                    Горячие блюда</p>
+            </button>
+            <button class="card">
+                <img src="./images/menu_zakuski.svg">
+                <p>
+                    Закуски</p>
+            </button>
+            <button class="card">
+                <img src="./images/menu_salads.svg">
+                <p>
+                    Салаты</p>
+            </button>
+            <button class="card">
+                <img src="./images/menu_sugar.svg">
+                <p>
+                    Десерты</p>
+            </button>
+        </div>
+    </menu>
     <footer></footer>
 </body>
 
