@@ -189,17 +189,25 @@ nav {
 @media (max-width: 460px) {
     nav {
         width: 95%;
+        padding-top: 12px;
     }
 
     .header__menu {
-        margin-top: 25px;
+        margin-top: 30px;
     }
 
     .header__menu>button {
         display: none;
     }
 
+    .header__content {
+        width: 98%;
+        margin: 30px auto;
+        flex-direction: column;
+        gap: 20px
+    }
+
     .header__content>img {
-        width: 300px;
+        width: 280px;
     }
 }
