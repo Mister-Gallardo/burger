@@ -57,9 +57,11 @@ nav {
     transition: width 0.4s ease, left 0.4s ease;
 }
 
-.header__menu>a:hover::after {
-    width: 100%;
-    left: 0;
+@media(hover: hover) {
+    .header__menu>a:hover::after {
+        width: 100%;
+        left: 0;
+    }
 }
 
 .header__menu>.nav_p_active {
@@ -73,9 +75,11 @@ nav {
 }
 
 
-.header__menu>button:hover {
-    cursor: pointer;
-    background-color: #EA2626;
+@media(hover: hover) {
+    .header__menu>button:hover {
+        cursor: pointer;
+        background-color: #EA2626;
+    }
 }
 
 .header__menu>button:active {
@@ -108,11 +112,13 @@ nav {
     font-family: 'Montserrat', serif;
 }
 
-.header__content button:hover {
-    cursor: pointer;
-    background-color: white;
-    color: #E52626;
-    font-weight: 500;
+@media(hover: hover) {
+    .header__content button:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #E52626;
+        font-weight: 500;
+    }
 }
 
 .header__content button:active {
