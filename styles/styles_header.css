@@ -178,7 +178,7 @@ nav {
         text-align: center;
         order: 2;
         gap: 15px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
     .header__content>img {
@@ -202,7 +202,7 @@ nav {
 
     .header__content {
         width: 98%;
-        margin: 30px auto;
+        margin: 40px auto;
         flex-direction: column;
         gap: 20px
     }
